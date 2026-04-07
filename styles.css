@@ -168,3 +168,12 @@ footer {
         margin: 10px auto;
     }
 }
+
+/* Animación de entrada al footer */
+footer {
+    border-top: 4px solid #c8a165;
+}
+
+footer p {
+    margin: 5px 0;
+}
