@@ -149,3 +149,22 @@ footer {
     font-size: 0.9rem;
     line-height: 2;
 }
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .producto {
+        width: 90%;
+        display: block;
+        margin: 10px auto;
+    }
+}
